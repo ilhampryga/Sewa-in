@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Produk"
+            android:fontFamily="@font/readreg"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:padding="24dp"
+            android:background="#DCE9E3" />
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_item">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foto Produk"
+                android:textSize="18sp"
+                android:fontFamily="@font/readreg"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/ivProduk"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ic_image"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item"
+            android:padding="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:hint="Masukan Nama Produk...."
+            android:fontFamily="@font/readlight"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/bg_item"
+            android:padding="12dp"
+            android:gravity="top"
+            android:hint="Masukan Deskripsi Produk...."
+            android:fontFamily="@font/readlight"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <EditText
+            android:id="@+id/editHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item"
+            android:padding="15dp"
+            android:hint="Masukan Harga Produk / Hari"
+            android:fontFamily="@font/readlight"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="24dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:fontFamily="@font/readreg"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

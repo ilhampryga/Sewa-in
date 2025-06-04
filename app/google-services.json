@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "53611065619",
+    "project_id": "project-pab-666",
+    "storage_bucket": "project-pab-666.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53611065619:android:1a9c24a706aeb72e612ae6",
+        "android_client_info": {
+          "package_name": "com.ilham.project_pab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC18dqhIz7ewPLe7AAJ0GJR8nsAG7Pr5HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
